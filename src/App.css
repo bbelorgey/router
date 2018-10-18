@@ -30,3 +30,14 @@
     transform: rotate(360deg);
   }
 }
+
+a:link {
+  text-decoration:none;
+}
+.selected {
+  color:red;
+}
+.selected:link {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
